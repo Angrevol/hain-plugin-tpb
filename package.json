@@ -1,6 +1,6 @@
 {
   "name": "hain-plugin-tpb",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "browse torrents and access magnet uris from pirate bay",
   "main": "index.js",
   "scripts": {},
