@@ -1,0 +1,24 @@
+{
+  "name": "hain-plugin-tpb",
+  "version": "1.2.0",
+  "description": "browse torrents and access magnet uris from pirate bay",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {},
+  "author": "Angrevol",
+  "license": "MIT",
+  "keywords": [
+    "hain-0.5.0"
+  ],
+  "dependencies": {
+    "got": "latest",
+	"cookie": "latest",
+	"cheerio": "latest"
+  },
+  "hain": {
+    "prefix": "/tpb",
+    "usage": "type /tpb something to browse thepiratebay torrents",
+    "icon": "./tpb.png",
+    "redirect": "/tpb "
+  }
+}
