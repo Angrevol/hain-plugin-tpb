@@ -59,9 +59,9 @@ module.exports = (PluginContext) => {
 					if (!!img)
 					{
 						if (img.indexOf("trusted") != -1)
-							header = "<span style='border-radius: 5px; background-color: green; color: #ffffff; padding: 2px'>Trusted</span> ";
+							header = "<span style='border-radius: 5px; background-color: fuchsia; color: #ffffff; padding: 2px'>Trusted</span> ";
 						else if (img.indexOf("vip") != -1)
-							header = "<span style='border-radius: 5px; background-color: fuchsia; color: #ffffff; padding: 2px'>VIP</span> ";
+							header = "<span style='border-radius: 5px; background-color: green; color: #ffffff; padding: 2px'>VIP</span> ";
 					}
 					res_temp.push({
 					  icon: '#fa fa-magnet',
